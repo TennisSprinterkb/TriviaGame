@@ -8,41 +8,48 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
+
+<header class="headfoot">
+    <h2>Track & Field Trivia</h2>
+</header>
+
 <body>
-    <header>
-        <h2>Track & Field Trivia</h2>
-    </header>
     <div class="jumbotron">
         <h1 class="display-4">Track & Field</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <h2 id="time">Stopwatch: </h2>
+        <p class="Sprint" id="Quiz">You will have until the end of the timer(stopwatch) to answer each question.</p>
+    <div>
+        <p class="Sprint" id="goals"></p> 
+    <div id="col-4">
+            <button class="mx-auto btn btn-light btn-lg" id="list-a" value="a" onclick="reply_click()" href="#" input type='button' role="button"></button>
+            <button class="mx-auto btn btn-light btn-lg" id="list-b" value="b" onclick="reply_click()" href="#" input type='button' role="button"></button>
+            <button class="mx-auto btn btn-light btn-lg" id="list-c" value="c" onclick="reply_click()" href="#" input type='button' role="button"></button>
+            <button class="mx-auto btn btn-light btn-lg" id="list-d" value="d" onclick="reply_click()" href="#" input type='button' role="button"></button>
+        <!-- <a class="list-group-item list-group-item-action" id="list-a" value="a" onclick="reply_click(this.id)"  href="#" input type='button' role="button"></a>
+        <a class="list-group-item list-group-item-action" id="list-b" value="b" onclick="reply_click(this.id)"  href="#" input type='button' role="button"></a>
+        <a class="list-group-item list-group-item-action" id="list-c" value="c" onclick="reply_click(this.id)"  href="#" input type='button' role="button"></a>
+        <a class="list-group-item list-group-item-action" id="list-d" value="d" onclick="reply_click(this.id)"  href="#" input type='button' role="button"></a> -->
+    </div>
+    </div>
+        <p class="Sprint" id="clear">
+            <a class="btn btn-primary btn-lg" id="begin" href="#" role="button">Start game</a>
         </p>
-      </div>
-      <div class="row">
-            <div class="col-4">
-              <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-              </div>
-            </div>
-            <div class="col-8">
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list"></div>
-                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"></div>
-                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"></div>
-                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"></div>
-              </div>
-            </div>
-          </div>
-      <footer>
-          &copy; Copyright Kevin Bray 2018
-      </footer>
+        <div id="info"></div>
+        <div id="image"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
+<footer>
+    <div class="headfoot">
+    &copy; Copyright Kevin Bray 2018
+    </div>
+</footer>
+
+
 </html>
