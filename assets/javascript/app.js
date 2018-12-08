@@ -202,7 +202,7 @@
         end()
         $("image").html("");
         $("#info").html("");
-        $("#Quiz").html("Correct: " + medals + "Incorrect: " + losses + "No response: " + DQ);
+        $("#Quiz").html("Correct:  " + medals + " Incorrect:  " + losses + " No response: " + DQ);
         $("#time").hide();
         $("#col-4").hide();
         $("#begin").show();
